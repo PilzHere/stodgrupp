@@ -7,6 +7,7 @@ public class Main {
     public static void main (String[] args) {
         Truck truck = new Truck("Volvo");
         truck.load();
+        System.out.println("hej");
     }
 
     public static void nain(String[] args) {
@@ -39,4 +40,6 @@ public class Main {
     public static void add(int tal) {
         tal *= 10;
     }
+
+
 }
